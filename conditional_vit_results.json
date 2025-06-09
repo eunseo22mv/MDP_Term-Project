@@ -1,0 +1,2574 @@
+{
+  "episodes": [
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    },
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    },
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    },
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    },
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    },
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    },
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    },
+    {
+      "total_reward": 95.95666666666668,
+      "compression_ratio": 0.23416666666666675,
+      "active_layers": 12,
+      "is_valid": true,
+      "decisions": [
+        {
+          "layer": 0,
+          "state": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": -0.07500000000000007,
+          "reason": "Critical layer 0: Minimal compression to preserve functionality",
+          "layer_state": {
+            "heads_remaining": 0.95,
+            "ffn_size_ratio": 0.95,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 1,
+          "state": [
+            0.0833333358168602,
+            0.9958333373069763,
+            0.9958333373069763,
+            1.0,
+            0.5,
+            0.004166666883975267
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 7.874999999999998,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 2,
+          "state": [
+            0.1666666716337204,
+            0.9791666865348816,
+            0.9750000238418579,
+            1.0,
+            0.5,
+            0.024166665971279144
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 3,
+          "state": [
+            0.25,
+            0.9624999761581421,
+            0.9541666507720947,
+            1.0,
+            0.5,
+            0.04416666552424431
+          ],
+          "action": [
+            0.2,
+            0.25,
+            0.1
+          ],
+          "reward": 8.145,
+          "reason": "Early stage with high capacity: Exploratory pruning",
+          "layer_state": {
+            "heads_remaining": 0.8,
+            "ffn_size_ratio": 0.75,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 4,
+          "state": [
+            0.3333333432674408,
+            0.9458333253860474,
+            0.9333333373069763,
+            1.0,
+            0.5,
+            0.06416666507720947
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 5,
+          "state": [
+            0.4166666567325592,
+            0.9208333492279053,
+            0.9041666388511658,
+            1.0,
+            0.5,
+            0.0925000011920929
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 6,
+          "state": [
+            0.5,
+            0.8958333134651184,
+            0.875,
+            1.0,
+            0.5,
+            0.12083332985639572
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 7,
+          "state": [
+            0.5833333134651184,
+            0.8708333373069763,
+            0.8458333611488342,
+            1.0,
+            0.5,
+            0.14916667342185974
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 9.0,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 8,
+          "state": [
+            0.6666666865348816,
+            0.8458333611488342,
+            0.8166666626930237,
+            1.0,
+            0.5,
+            0.17749999463558197
+          ],
+          "action": [
+            0.3,
+            0.35,
+            0.2
+          ],
+          "reward": 8.415,
+          "reason": "Middle stage: High capacity reduction",
+          "layer_state": {
+            "heads_remaining": 0.7,
+            "ffn_size_ratio": 0.65,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 9,
+          "state": [
+            0.75,
+            0.8208333253860474,
+            0.7875000238418579,
+            1.0,
+            0.5,
+            0.2058333307504654
+          ],
+          "action": [
+            0.15,
+            0.2,
+            0.0
+          ],
+          "reward": 8.01,
+          "reason": "Late stage with remaining capacity: Light pruning",
+          "layer_state": {
+            "heads_remaining": 0.85,
+            "ffn_size_ratio": 0.8,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 10,
+          "state": [
+            0.8333333134651184,
+            0.8083333373069763,
+            0.7708333134651184,
+            1.0,
+            0.5,
+            0.22166666388511658
+          ],
+          "action": [
+            0.1,
+            0.1,
+            0.0
+          ],
+          "reward": 0.14999999999999983,
+          "reason": "Near-final layer 10: Preserve classification capacity",
+          "layer_state": {
+            "heads_remaining": 0.9,
+            "ffn_size_ratio": 0.9,
+            "is_active": true,
+            "original_heads": 12,
+            "original_ffn_size": 3072
+          }
+        },
+        {
+          "layer": 11,
+          "state": [
+            0.9166666865348816,
+            0.800000011920929,
+            0.762499988079071,
+            1.0,
+            0.5,
+            0.23000000417232513
+          ],
+          "action": [
+            0.05,
+            0.05,
+            0.0
+          ],
+          "reward": 19.29166666666667,
+          "reason": "Critical layer 11: Minimal compression to preserve functionality",
+          "layer_state": {}
+        }
+      ],
+      "reward_trajectory": [
+        -0.07500000000000007,
+        7.874999999999998,
+        8.145,
+        8.145,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        8.415,
+        8.01,
+        0.14999999999999983,
+        19.29166666666667
+      ]
+    }
+  ],
+  "decision_summary": {
+    "total_decisions": 96,
+    "action_distribution": {
+      "Minimal": 16,
+      "Moderate": 32,
+      "Aggressive": 40,
+      "Conservative": 8
+    },
+    "condition_usage": {
+      "Critical layer protection": 16,
+      "Early stage": 24,
+      "Middle stage": 40,
+      "Late stage": 16
+    },
+    "stage_statistics": {
+      "Early": {
+        "count": 32,
+        "avg_head_prune": 0.1625,
+        "avg_ffn_prune": 0.2,
+        "avg_skip_prob": 0.07500000000000001
+      },
+      "Middle": {
+        "count": 40,
+        "avg_head_prune": 0.3,
+        "avg_ffn_prune": 0.35,
+        "avg_skip_prob": 0.2
+      },
+      "Late": {
+        "count": 24,
+        "avg_head_prune": 0.10000000000000002,
+        "avg_ffn_prune": 0.11666666666666665,
+        "avg_skip_prob": 0.0
+      }
+    }
+  },
+  "performance_metrics": {
+    "total_episodes": 8,
+    "valid_episodes": 8,
+    "success_rate": 1.0,
+    "average_compression": 0.23416666666666675,
+    "average_reward": 95.95666666666668
+  }
+}

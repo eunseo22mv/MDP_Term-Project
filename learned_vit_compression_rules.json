@@ -1,0 +1,189 @@
+{
+  "early_high_high_high_high_low": {
+    "state": {
+      "progress_range": "early",
+      "avg_heads_range": "high",
+      "avg_ffn_range": "high",
+      "active_ratio_range": "high",
+      "skip_budget_range": "high",
+      "compression_range": "low"
+    },
+    "action": {
+      "head_prune_ratio": 0.25,
+      "ffn_prune_ratio": 0.3,
+      "skip_probability": 0.4,
+      "strategy": "aggressive",
+      "description": "Exploration: Test aggressive early compression"
+    }
+  },
+  "early_medium_medium_medium_high_low": {
+    "state": {
+      "progress_range": "early",
+      "avg_heads_range": "medium",
+      "avg_ffn_range": "medium",
+      "active_ratio_range": "medium",
+      "skip_budget_range": "high",
+      "compression_range": "low"
+    },
+    "action": {
+      "head_prune_ratio": 0.15,
+      "ffn_prune_ratio": 0.2,
+      "skip_probability": 0.1,
+      "strategy": "moderate",
+      "description": "Early stage: Moderate pruning with some exploration"
+    }
+  },
+  "middle_high_high_high_medium_low": {
+    "state": {
+      "progress_range": "middle",
+      "avg_heads_range": "high",
+      "avg_ffn_range": "high",
+      "active_ratio_range": "high",
+      "skip_budget_range": "medium",
+      "compression_range": "low"
+    },
+    "action": {
+      "head_prune_ratio": 0.3,
+      "ffn_prune_ratio": 0.35,
+      "skip_probability": 0.2,
+      "strategy": "moderate",
+      "description": "Learned rule (reward: 9.00)"
+    }
+  },
+  "middle_medium_medium_medium_medium_medium": {
+    "state": {
+      "progress_range": "middle",
+      "avg_heads_range": "medium",
+      "avg_ffn_range": "medium",
+      "active_ratio_range": "medium",
+      "skip_budget_range": "medium",
+      "compression_range": "medium"
+    },
+    "action": {
+      "head_prune_ratio": 0.2,
+      "ffn_prune_ratio": 0.25,
+      "skip_probability": 0.3,
+      "strategy": "moderate",
+      "description": "Middle stage: Balanced pruning with layer skipping"
+    }
+  },
+  "middle_low_low_low_low_high": {
+    "state": {
+      "progress_range": "middle",
+      "avg_heads_range": "low",
+      "avg_ffn_range": "low",
+      "active_ratio_range": "low",
+      "skip_budget_range": "low",
+      "compression_range": "high"
+    },
+    "action": {
+      "head_prune_ratio": 0.05,
+      "ffn_prune_ratio": 0.1,
+      "skip_probability": 0.0,
+      "strategy": "conservative",
+      "description": "Middle stage: Conservative - avoid over-compression"
+    }
+  },
+  "late_high_high_high_low_medium": {
+    "state": {
+      "progress_range": "late",
+      "avg_heads_range": "high",
+      "avg_ffn_range": "high",
+      "active_ratio_range": "high",
+      "skip_budget_range": "low",
+      "compression_range": "medium"
+    },
+    "action": {
+      "head_prune_ratio": 0.15,
+      "ffn_prune_ratio": 0.15,
+      "skip_probability": 0.0,
+      "strategy": "conservative",
+      "description": "Late stage: Preserve classification capacity"
+    }
+  },
+  "late_medium_medium_medium_low_high": {
+    "state": {
+      "progress_range": "late",
+      "avg_heads_range": "medium",
+      "avg_ffn_range": "medium",
+      "active_ratio_range": "medium",
+      "skip_budget_range": "low",
+      "compression_range": "high"
+    },
+    "action": {
+      "head_prune_ratio": 0.1,
+      "ffn_prune_ratio": 0.1,
+      "skip_probability": 0.0,
+      "strategy": "conservative",
+      "description": "Late stage: Minimal pruning - protect final layers"
+    }
+  },
+  "middle_low_low_low_medium_high": {
+    "state": {
+      "progress_range": "middle",
+      "avg_heads_range": "low",
+      "avg_ffn_range": "low",
+      "active_ratio_range": "low",
+      "skip_budget_range": "medium",
+      "compression_range": "high"
+    },
+    "action": {
+      "head_prune_ratio": 0.0,
+      "ffn_prune_ratio": 0.0,
+      "skip_probability": 0.0,
+      "strategy": "conservative",
+      "description": "Emergency: Stop compression - too few active layers"
+    }
+  },
+  "early_high_high_high_medium_low": {
+    "state": {
+      "progress_range": "early",
+      "avg_heads_range": "high",
+      "avg_ffn_range": "high",
+      "active_ratio_range": "high",
+      "skip_budget_range": "medium",
+      "compression_range": "low"
+    },
+    "action": {
+      "head_prune_ratio": 0.15,
+      "ffn_prune_ratio": 0.2,
+      "skip_probability": 0.1,
+      "strategy": "moderate",
+      "description": "Learned rule (reward: 8.01)"
+    }
+  },
+  "late_high_high_high_medium_low": {
+    "state": {
+      "progress_range": "late",
+      "avg_heads_range": "high",
+      "avg_ffn_range": "high",
+      "active_ratio_range": "high",
+      "skip_budget_range": "medium",
+      "compression_range": "low"
+    },
+    "action": {
+      "head_prune_ratio": 0.1,
+      "ffn_prune_ratio": 0.15,
+      "skip_probability": 0.0,
+      "strategy": "conservative",
+      "description": "Learned rule (reward: 0.37)"
+    }
+  },
+  "late_high_high_high_medium_medium": {
+    "state": {
+      "progress_range": "late",
+      "avg_heads_range": "high",
+      "avg_ffn_range": "high",
+      "active_ratio_range": "high",
+      "skip_budget_range": "medium",
+      "compression_range": "medium"
+    },
+    "action": {
+      "head_prune_ratio": 0.1,
+      "ffn_prune_ratio": 0.15,
+      "skip_probability": 0.0,
+      "strategy": "conservative",
+      "description": "Learned rule (reward: 0.22)"
+    }
+  }
+}
